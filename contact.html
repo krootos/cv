@@ -1,53 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>My Contact Details.</h1>
-    <p>310 Makhampom Thatnaweng Muang Sakon Nakhon.</p>
-    <p>062-1810900</p>
-    <p>E-mail:krootos@tnw.ac.th</p>
-    <br>
-    <form action="mailto:krootos@tnw.ac.th" method="post" enctype="text/plain">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <style>
+      body {
+        background-color: #eaf6f6;
+      }
+
+      hr {
+        border-style: none;
+        border-top-style: dotted;
+        border-color: rgb(224, 224, 224);
+        border-width: 20px;
+        width: 20%;
+      }
+
+      img {
+        height: 150px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>
+        <a href="index.html" target=""> Home</a>
+        <a href="contact.html" target=""> Contact</a>
+        <a href="https://www.google.co.th" target="_blank">Google</a>
+      </h1>
+      <hr />
+
+      <table cellpadding="50px">
+        <tr>
+          <td>
+            <img
+              src="images/dechudom-modified.png"
+              alt="เดชอุดม ไชยวงศ์คต"
+              height="300px"
+            />
+          </td>
+          <td>
+            <h1>Dechudom Chaiwongkot</h1>
+            <p>
+              Teacher subject computer in
+              <em><strong> Thatnaraiwittaya school.</strong></em>
+            </p>
+            <p>I'm expert in web developer HTML CSS and Javascript.</p>
+          </td>
+        </tr>
+      </table>
+    </center>
+
+    <hr />
+    <center>
+      <h1>My Contact Details.</h1>
+      <p>310 Makhampom Thatnaweng Muang Sakon Nakhon. Tel.062-1810900</p>
+      <p>E-mail:krootos@tnw.ac.th</p>
+      <br />
+      <form
+        action="mailto:krootos@tnw.ac.th"
+        method="post"
+        enctype="text/plain"
+      >
         <table cellspacing="10px">
-            <tr>
-                <td><label for="yourname">Your name: </label></td>
-                <td><input type="text" name="yourName"> 
-                    <input type="hidden" name="what" value="12345678910">
-                
-                </td>
-            </tr>
-            <tr>
-                <td><label for="your_email">Your email: </label></td>
-                <td><input type="email" name="yourEmail" id=""></td>
-            </tr>
-            <tr>
-                <td valign="top"><label for="your_message">Your message: </label></td>
-                <td><textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td><input type="submit"></td>
-                name=yourName
-                email=yourEmail
-                
-            </tr>
+          <tr>
+            <td><label for="yourname">Your name: </label></td>
+            <td>
+              <input type="text" name="yourName" />
+              <input type="hidden" name="what" value="12345678910" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="your_email">Your email: </label></td>
+            <td><input type="email" name="yourEmail" id="" /></td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="your_message">Your message: </label>
+            </td>
+            <td>
+              <textarea name="yourMessage" id="" cols="30" rows="10"></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><input type="submit" /></td>
+          
+          </tr>
         </table>
-       
-        
-        
-        
-        
-        
-        
-    </form>
-    <hr>
-    <a href="index.html" target="">Home</a>
-     
-</body>
+      </form>
+    </center>
+    <hr />
+  </body>
 </html>
